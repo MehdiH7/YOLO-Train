@@ -7,14 +7,16 @@
 
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: /home/mehdi/YOLO_Train/Training/datasets  # dataset root dir
-train: datasets/train     # train images (relative to 'path') 128 images
-val: datasets/valid       # val images (relative to 'path') 128 images
-test:  datasets/test        #test images (optional)
+path: /home/mehdi/UP/YOLO-Train/Train/datasets  # dataset root dir
+train: /home/mehdi/UP/YOLO-Train/Train/datasets/train     # train images (relative to 'path') 128 images
+val: /home/mehdi/UP/YOLO-Train/Train/datasets/valid       # val images (relative to 'path') 128 images
+test:  /home/mehdi/UP/YOLO-Train/Train/datasets/test        #test images (optional)
 
 # Classes
 names:
   0: Ball
-  1: Player
+  1: Goalkeeper
+  2: Player
+  3: Referee
 
 
